@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		6C806A6F2887DF8E0051375E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C806A6E2887DF8E0051375E /* AppDelegate.swift */; };
 		6C806A712887DF8E0051375E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C806A702887DF8E0051375E /* SceneDelegate.swift */; };
-		6C806A732887DF8E0051375E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C806A722887DF8E0051375E /* ViewController.swift */; };
+		6C806A732887DF8E0051375E /* stopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C806A722887DF8E0051375E /* stopWatchViewController.swift */; };
 		6C806A762887DF8E0051375E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C806A742887DF8E0051375E /* Main.storyboard */; };
 		6C806A782887DF900051375E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C806A772887DF900051375E /* Assets.xcassets */; };
 		6C806A7B2887DF900051375E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C806A792887DF900051375E /* LaunchScreen.storyboard */; };
 		6C806A862887DF900051375E /* StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C806A852887DF900051375E /* StopWatchTests.swift */; };
 		6C806A902887DF900051375E /* StopWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C806A8F2887DF900051375E /* StopWatchUITests.swift */; };
 		6C806A922887DF900051375E /* StopWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C806A912887DF900051375E /* StopWatchUITestsLaunchTests.swift */; };
+		6C806AA02887F4E20051375E /* rapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C806A9E2887F4E20051375E /* rapTableViewCell.swift */; };
+		6C806AA12887F4E20051375E /* rapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C806A9F2887F4E20051375E /* rapTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		6C806A6B2887DF8E0051375E /* StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C806A6E2887DF8E0051375E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C806A702887DF8E0051375E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C806A722887DF8E0051375E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C806A722887DF8E0051375E /* stopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopWatchViewController.swift; sourceTree = "<group>"; };
 		6C806A752887DF8E0051375E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C806A772887DF900051375E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C806A7A2887DF900051375E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		6C806A8B2887DF900051375E /* StopWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C806A8F2887DF900051375E /* StopWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchUITests.swift; sourceTree = "<group>"; };
 		6C806A912887DF900051375E /* StopWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C806A9E2887F4E20051375E /* rapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rapTableViewCell.swift; sourceTree = "<group>"; };
+		6C806A9F2887F4E20051375E /* rapTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = rapTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				6C806A6E2887DF8E0051375E /* AppDelegate.swift */,
 				6C806A702887DF8E0051375E /* SceneDelegate.swift */,
-				6C806A722887DF8E0051375E /* ViewController.swift */,
+				6C806A722887DF8E0051375E /* stopWatchViewController.swift */,
 				6C806A742887DF8E0051375E /* Main.storyboard */,
 				6C806A772887DF900051375E /* Assets.xcassets */,
 				6C806A792887DF900051375E /* LaunchScreen.storyboard */,
 				6C806A7C2887DF900051375E /* Info.plist */,
+				6C806A9E2887F4E20051375E /* rapTableViewCell.swift */,
+				6C806A9F2887F4E20051375E /* rapTableViewCell.xib */,
 			);
 			path = StopWatch;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C806A7B2887DF900051375E /* LaunchScreen.storyboard in Resources */,
+				6C806AA12887F4E20051375E /* rapTableViewCell.xib in Resources */,
 				6C806A782887DF900051375E /* Assets.xcassets in Resources */,
 				6C806A762887DF8E0051375E /* Main.storyboard in Resources */,
 			);
@@ -258,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C806A732887DF8E0051375E /* ViewController.swift in Sources */,
+				6C806A732887DF8E0051375E /* stopWatchViewController.swift in Sources */,
+				6C806AA02887F4E20051375E /* rapTableViewCell.swift in Sources */,
 				6C806A6F2887DF8E0051375E /* AppDelegate.swift in Sources */,
 				6C806A712887DF8E0051375E /* SceneDelegate.swift in Sources */,
 			);
