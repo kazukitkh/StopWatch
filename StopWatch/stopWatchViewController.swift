@@ -69,7 +69,6 @@ class stopWatchViewController: UIViewController {
     }
     
     @IBAction func rapButtonPressed(_ sender: Any) {
-        print("hello")
         if let t = timer, t.isValid {
             self.raps.append(timeString)
             self.rapTableView.reloadData()
